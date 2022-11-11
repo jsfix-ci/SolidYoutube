@@ -1,10 +1,17 @@
 import './App.css';
+import {
+  Routes,
+  Route,
+  Link,
+} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-    <h1>hello wordl</h1>
-    <p>hello user</p>
+      <Routes>
+        <Route path='/test' element={<h1>hello user</h1>} />
+      </Routes>
+      <Link to='/test'>Click</Link>
     </div>
   );
 }
