@@ -9,5 +9,4 @@ module.exports = {
   "htmlWhitespaceSensitivity": 'css', 
   "jsxBracketSameLine": true,
   "endOfLine":"auto"
-  
 }

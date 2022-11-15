@@ -1,12 +1,11 @@
-import { createSlice } from "@reduxjs/toolkit";
-
+import { createSlice } from '@reduxjs/toolkit'
 
 const rootSlice = createSlice({
-    name: "root",
-    initialState: {},
-    reducers: {
-        sRoot: (state, action) => {}
-    }
+  name: 'root',
+  initialState: {},
+  reducers: {
+    sRoot: () => {},
+  },
 })
 
 export const rootSliceAction = rootSlice.actions
