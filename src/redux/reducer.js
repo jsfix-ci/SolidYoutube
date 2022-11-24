@@ -1,20 +1,19 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit'
 
 const authSlice = createSlice({
-  name: "login",
+  name: 'login',
   initialState: {
-    login: []
-
+    login: [],
   },
   reducers: {
     addUser(state, action) {
       state.login.push({
         id: action.payload.id,
-        email: action.payload.email
-      });
-    }
-  }
-});
+        email: action.payload.email,
+      })
+    },
+  },
+})
 
 export const { addUser } = authSlice.actions
-export default authSlice = authSlice.reducer
+export default authSlice.reducer
