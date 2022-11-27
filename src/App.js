@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import { useTranslation } from 'react-i18next'
