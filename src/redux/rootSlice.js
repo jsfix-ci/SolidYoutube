@@ -1,10 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const rootSlice = createSlice({
-  name: 'root',
-  initialState: {},
+  name: 'Subscriptions',
+  initialState: {
+    data: []
+  },
   reducers: {
-    sRoot: () => {},
+    setData: (state, action) => {
+      state.data = action.payload
+    },
   },
 })
 

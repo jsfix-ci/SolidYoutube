@@ -1,11 +1,8 @@
-import VideoCard from '../components/video/VideoCard'
+import React from 'react'
 
 function HomePage() {
   return (
-    <div className='page'>
-      <h1>Home page</h1>
-      <VideoCard />
-    </div>
+    <div>HomePage</div>
   )
 }
 

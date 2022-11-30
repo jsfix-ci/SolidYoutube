@@ -1,1 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.App {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.sidebar {
+    display: flex;
+    color: black;
+    width: 200px;
+    padding: 10px 15px;
+    font-size: small;
+}
+
+.link {
+    display: flex;
+    color: rgb(72, 72, 72);
+    padding: 10px 15px;
+    gap: 15px;
+}
+
+.link:hover {
+    background: rgba(212, 212, 212, 0.107);
+    color: rgb(224, 224, 224);
+}
+
+.icon,
+.linkText {
+    font-size: 20px;
+}
