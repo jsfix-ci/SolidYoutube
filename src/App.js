@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next'
 import Sidebar from './sidebar/Sidebar'
 import Shorts from './pages/Shorts'
 import Subscriptions from './pages/Subscriptions'
-import { useEffect } from 'react'
-import Api from './api/Api'
+// import { useEffect } from 'react'
+// import Api from './api/Api'
 
 function App() {
   const { t } = useTranslation()
@@ -41,4 +41,3 @@ function App() {
   )
 }
 export default App
-
